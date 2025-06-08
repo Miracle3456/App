@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>{%block title%}Document{%endblock%}</title>
+   
+  
+
+    <header>
+        <a href="{%url 'homepage'%}">Home</a> | <a href="{%url 'aboutpage'%}">About</a>
+    </header>
+</head>
+<body>
+    {%block content%}
+
+    {%endblock%}
+    <footer>
+        {%block footer%}
+
+        <div>
+            All rights reserved to Miracle 2025
+        </div>
+        {%endblock%}
+    </footer>
+</body>
+</html>
